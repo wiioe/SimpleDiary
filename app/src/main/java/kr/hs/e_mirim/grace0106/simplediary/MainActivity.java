@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             in.read(txt);
             in.close();
             diaryContents=new String(txt);
-            butSave.setText("수정하");
+            butSave.setText("수정하기");
 
         } catch (IOException e) {
             editDiary.setHint("읽어올 일기가 없음");
